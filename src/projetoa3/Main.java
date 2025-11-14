@@ -15,7 +15,7 @@ public class Main {
         while(continuar == true){
             
             System.out.println("\n----------------------\n" +
-                               "Escolha uma das opções:\n" +
+                               "Escolha uma das opÃ§Ãµes:\n" +
                                "\n1 - adicionar produto" +
                                "\n2 - remover produto" +
                                "\n3 - atualizar produto" +
@@ -37,10 +37,10 @@ public class Main {
                     System.out.print("Nome: ");
                     String addNome = teclado.nextLine();
 
-                    System.out.print("Descrição: ");
+                    System.out.print("DescriÃ§Ã£o: ");
                     String addDesc = teclado.nextLine();
 
-                    System.out.print("Preço: ");
+                    System.out.print("PreÃ§o: ");
                     float addPreco = Float.parseFloat(teclado.nextLine());
 
                     System.out.print("Cor: ");
@@ -54,6 +54,7 @@ public class Main {
                 
                 case 2: 
                     System.out.println("Removendo produto...\n");
+                    
                 break;
                 
                 case 3:
@@ -64,10 +65,10 @@ public class Main {
                     int atuId = Integer.parseInt(teclado.nextLine());
                     
                     System.out.println("----------------------\n" +
-                               "Escolha uma das opções:\n" +
+                               "Escolha uma das opï¿½ï¿½es:\n" +
                                "\n1 - Nome" +
-                               "\n2 - Descrição" +
-                               "\n3 - Preço" +
+                               "\n2 - DescriÃ§Ã£o" +
+                               "\n3 - PreÃ§o" +
                                "\n4 - Cor" +
                                "\n5 - Quantidade" + 
                                "\n----------------------\n"
@@ -86,13 +87,13 @@ public class Main {
                         break;
                         
                         case 2:
-                            System.out.print("Descrição: ");
+                            System.out.print("DescriÃ§Ã£o: ");
                             novoValor = teclado.nextLine();
                             meuEstoque.AtualizarLista(atuId, escolha, novoValor);
                         break;
                         
                         case 3:
-                            System.out.print("Preço: ");
+                            System.out.print("PreÃ§o: ");
                             novoValor = teclado.nextLine();
                             meuEstoque.AtualizarLista(atuId, escolha, novoValor);
                         break;
@@ -110,7 +111,7 @@ public class Main {
                         break;
                         
                         default:
-                            System.out.println("Nenhuma opção valida selecionada.");
+                            System.out.println("Nenhuma opï¿½ï¿½o valida selecionada.");
                     }
                     
                 break;
@@ -126,7 +127,7 @@ public class Main {
                 break;
                 
                 default:
-                    System.out.println("Nenhuma das opções validas selecionadas.\n");
+                    System.out.println("Nenhuma das opÃ§Ãµes validas selecionadas.\n");
                     
             }        
         
