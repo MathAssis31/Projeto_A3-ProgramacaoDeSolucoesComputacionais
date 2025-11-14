@@ -31,7 +31,6 @@ public class Main {
             switch(opcoes){
                 
                 case 1:
-                    System.out.println("");
                     System.out.println("--- Adicionando Novo Produto ---");
 
                     System.out.print("Nome: ");
@@ -61,7 +60,7 @@ public class Main {
                     
                     System.out.println("--- Atualizar Produto ---");
                     
-                    System.out.println("Digite o Indice do produto que deseja atualizar: ");
+                    System.out.println("Digite o Id do produto que deseja atualizar: ");
                     int atuId = Integer.parseInt(teclado.nextLine());
                     
                     System.out.println("----------------------\n" +

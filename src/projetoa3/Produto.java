@@ -2,7 +2,7 @@ package projetoa3;
 
 public class Produto {
 
-    private static int incremental = 0;
+    private static int incremental = 1;
     private int id = incremental++;
     private String nome;
     private String descricao;
